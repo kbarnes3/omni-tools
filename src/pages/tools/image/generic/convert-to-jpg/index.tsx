@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import * as Yup from 'yup';
 import ToolContent from '@components/ToolContent';
 import { ToolComponentProps } from '@tools/defineTool';
-import heic2any from 'heic2any';
+import { heicTo } from 'heic-to';
 
 const initialValues = {
   quality: 85,
@@ -47,21 +47,20 @@ export default function ConvertToJpg({ title }: ToolComponentProps) {
 
         if (isHeicLike(file)) {
           try {
-            const converted = await heic2any({
+            const converted = await heicTo({
               blob: file,
-              toType: 'image/png',
+              type: 'image/png',
               quality: 1
             });
-            const blobOut = Array.isArray(converted) ? converted[0] : converted;
 
-            workingBlob = blobOut as Blob;
+            workingBlob = converted;
             workingName = file.name.replace(/\.[^/.]+$/, '') + '.png';
             const pngFile = new File([workingBlob], workingName, {
               type: 'image/png'
             });
             setInput(pngFile);
           } catch (e) {
-            console.error('heic2any conversion failed:', e);
+            console.error('heic-to conversion failed:', e);
             throw e;
           }
         }

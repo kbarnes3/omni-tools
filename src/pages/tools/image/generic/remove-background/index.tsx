@@ -5,7 +5,7 @@ import ToolContent from '@components/ToolContent';
 import { ToolComponentProps } from '@tools/defineTool';
 import ToolImageInput from '@components/input/ToolImageInput';
 import { removeBackground } from '@imgly/background-removal';
-import * as heic2any from 'heic2any';
+import { heicTo } from 'heic-to';
 
 const initialValues = {};
 
@@ -30,18 +30,11 @@ export default function RemoveBackgroundFromImage({
         input.type === 'image/heic' ||
         input.name?.toLowerCase().endsWith('.heic')
       ) {
-        // Convert HEIC to PNG using heic2any
-        const convertedBlob = await heic2any.default({
+        // Convert HEIC to PNG using heic-to
+        const pngBlob = await heicTo({
           blob: input,
-          toType: 'image/png'
+          type: 'image/png'
         });
-        // heic2any returns a Blob or an array of Blobs
-        let pngBlob;
-        if (Array.isArray(convertedBlob)) {
-          pngBlob = convertedBlob[0];
-        } else {
-          pngBlob = convertedBlob;
-        }
         fileToProcess = new File(
           [pngBlob],
           input.name.replace(/\.[^/.]+$/, '') + '.png',

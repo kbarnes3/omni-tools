@@ -84,7 +84,19 @@ export default function BaseFileInput({
           const category = acceptType.split('/')[0];
           return file.type.startsWith(category);
         }
-        return acceptType === file.type;
+        // Check by MIME type
+        if (acceptType === file.type) {
+          return true;
+        }
+        // Fallback: check by file extension for types browsers may not recognize
+        const fileName = file.name.toLowerCase();
+        if (acceptType === 'image/heic' && fileName.endsWith('.heic')) {
+          return true;
+        }
+        if (acceptType === 'image/heif' && fileName.endsWith('.heif')) {
+          return true;
+        }
+        return false;
       });
 
       if (isAcceptable) {

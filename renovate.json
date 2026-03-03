@@ -1,0 +1,63 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:js-app", "config:best-practices"],
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "description": "Automerge minor/patch updates for dev dependencies",
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "description": "Require dashboard approval for major updates",
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    },
+    {
+      "description": "Group MUI and Emotion packages",
+      "groupName": "MUI & Emotion",
+      "matchPackageNames": ["/^@mui//", "/^@emotion//"]
+    },
+    {
+      "description": "Group React packages",
+      "groupName": "React",
+      "matchPackageNames": [
+        "react",
+        "react-dom",
+        "react-router-dom",
+        "/^@types/react/"
+      ]
+    },
+    {
+      "description": "Group testing packages",
+      "groupName": "Testing",
+      "matchPackageNames": [
+        "vitest",
+        "happy-dom",
+        "/^@vitest//",
+        "/^@testing-library//"
+      ]
+    },
+    {
+      "description": "Group Playwright packages",
+      "groupName": "Playwright",
+      "matchPackageNames": ["playwright", "/^@playwright//"]
+    },
+    {
+      "description": "Group ESLint packages",
+      "groupName": "ESLint",
+      "matchPackageNames": [
+        "eslint",
+        "prettier",
+        "/^eslint-/",
+        "/^@typescript-eslint//"
+      ]
+    },
+    {
+      "description": "Group i18next packages",
+      "groupName": "i18next",
+      "matchPackageNames": ["i18next", "react-i18next", "/^i18next-/"]
+    }
+  ]
+}

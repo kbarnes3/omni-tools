@@ -51,8 +51,8 @@ importers:
         specifier: 1.6.6
         version: 1.6.6
       '@types/lodash':
-        specifier: 4.17.20
-        version: 4.17.20
+        specifier: 4.17.24
+        version: 4.17.24
       '@types/morsee':
         specifier: 1.0.2
         version: 1.0.2
@@ -1477,8 +1477,8 @@ packages:
   '@types/lodash.merge@4.6.9':
     resolution: {integrity: sha512-23sHDPmzd59kUgWyKGiOMO2Qb9YtqRO/x4IhkgNUiPQ1+5MUVqi6bCZeq9nBJ17msjIMbEIO5u+XW4Kz6aGUhQ==}
 
-  '@types/lodash@4.17.20':
-    resolution: {integrity: sha512-H3MHACvFUEiujabxhaI/ImO6gUrd8oOurg7LQtS7mbwIXA/cUqWrvBsaeJ23aZEPk1TAYkurjfMbSELfoCXlGA==}
+  '@types/lodash@4.17.24':
+    resolution: {integrity: sha512-gIW7lQLZbue7lRSWEFql49QJJWThrTFFeIMJdp3eH4tKoxm1OvEPg02rm4wCCSHS0cL3/Fizimb35b7k8atwsQ==}
 
   '@types/morsee@1.0.2':
     resolution: {integrity: sha512-WANv1kCyQtmGZTiov9FzFdt1X4wRtXYZA6B4YR3CghKgx4ychU7d1gkOx7oD+ddVGI+SWmWOPccco7pAc6wXeA==}
@@ -5869,9 +5869,9 @@ snapshots:
 
   '@types/lodash.merge@4.6.9':
     dependencies:
-      '@types/lodash': 4.17.20
+      '@types/lodash': 4.17.24
 
-  '@types/lodash@4.17.20': {}
+  '@types/lodash@4.17.24': {}
 
   '@types/morsee@1.0.2': {}
 

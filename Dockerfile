@@ -8,7 +8,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-FROM nginx:alpine@sha256:5bad1ddd1ae00bc2cf5d90a6141566cc3f0e05c6deca4106ef04ff5d8a94b280
+FROM nginx:alpine@sha256:f46cb72c7df02710e693e863a983ac42f6a9579058a59a35f1ae36c9958e4ce0
 
 COPY --from=build /app/dist /usr/share/nginx/html
 

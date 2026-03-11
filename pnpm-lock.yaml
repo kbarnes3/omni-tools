@@ -274,8 +274,8 @@ importers:
         specifier: 7.0.4
         version: 7.0.4(encoding@0.1.13)
       locize-cli:
-        specifier: 10.3.2
-        version: 10.3.2(encoding@0.1.13)
+        specifier: 10.4.0
+        version: 10.4.0(encoding@0.1.13)
       monaco-editor:
         specifier: 0.53.0
         version: 0.53.0
@@ -3192,8 +3192,8 @@ packages:
     resolution: {integrity: sha512-gvVijfZvn7R+2qyPX8mAuKcFGDf6Nc61GdvGafQsHL0sBIxfKzA+usWn4GFC/bk+QdwPUD4kWFJLhElipq+0VA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  locize-cli@10.3.2:
-    resolution: {integrity: sha512-LXxT7dAF9fMTxbZ7npvJKXCSLhDVSkoTcx109kSHD/ACjD5rhtxrr6iC8BYpM6cQq0+Hexs4jxabqZBV00+ccQ==}
+  locize-cli@10.4.0:
+    resolution: {integrity: sha512-9wxCKxEu+7DSTTFd1gbbAu4lzrmfCLstHGaJelz4p/tLsDc2B3e9VGulWJRqqSkn5ktgv3BvYdZjWdNmROPgcQ==}
     hasBin: true
 
   locize-xcstrings@2.0.0:
@@ -7952,7 +7952,7 @@ snapshots:
     dependencies:
       p-locate: 6.0.0
 
-  locize-cli@10.3.2(encoding@0.1.13):
+  locize-cli@10.4.0(encoding@0.1.13):
     dependencies:
       '@js.properties/properties': 0.5.4
       android-string-resource: 2.3.10

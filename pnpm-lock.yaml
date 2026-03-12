@@ -90,11 +90,11 @@ importers:
         specifier: 1.4.2
         version: 1.4.2
       i18next:
-        specifier: 25.5.3
-        version: 25.5.3(typescript@5.9.3)
+        specifier: 25.8.14
+        version: 25.8.14(typescript@5.9.3)
       i18next-browser-languagedetector:
-        specifier: 8.2.0
-        version: 8.2.0
+        specifier: 8.2.1
+        version: 8.2.1
       i18next-http-backend:
         specifier: 3.0.2
         version: 3.0.2(encoding@0.1.13)
@@ -166,7 +166,7 @@ importers:
         version: 6.1.0(react@18.3.1)
       react-i18next:
         specifier: 15.7.4
-        version: 15.7.4(i18next@25.5.3(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        version: 15.7.4(i18next@25.8.14(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       react-image-crop:
         specifier: 11.0.10
         version: 11.0.10(react@18.3.1)
@@ -271,8 +271,8 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
       i18next-locize-backend:
-        specifier: 7.0.4
-        version: 7.0.4(encoding@0.1.13)
+        specifier: 7.2.1
+        version: 7.2.1(encoding@0.1.13)
       locize-cli:
         specifier: 10.4.0
         version: 10.4.0(encoding@0.1.13)
@@ -2763,20 +2763,20 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  i18next-browser-languagedetector@8.2.0:
-    resolution: {integrity: sha512-P+3zEKLnOF0qmiesW383vsLdtQVyKtCNA9cjSoKCppTKPQVfKd2W8hbVo5ZhNJKDqeM7BOcvNoKJOjpHh4Js9g==}
+  i18next-browser-languagedetector@8.2.1:
+    resolution: {integrity: sha512-bZg8+4bdmaOiApD7N7BPT9W8MLZG+nPTOFlLiJiT8uzKXFjhxw4v2ierCXOwB5sFDMtuA5G4kgYZ0AznZxQ/cw==}
 
   i18next-http-backend@3.0.2:
     resolution: {integrity: sha512-PdlvPnvIp4E1sYi46Ik4tBYh/v/NbYfFFgTjkwFl0is8A18s7/bx9aXqsrOax9WUbeNS6mD2oix7Z0yGGf6m5g==}
 
-  i18next-locize-backend@7.0.4:
-    resolution: {integrity: sha512-saRyIQAX0k+YA6XzirU6cyudWDj1W7bGDz/Szq+8OIs3JJnNuMZCADuNgCwmo+dQm9P69bbALymV+9t9ffywBA==}
+  i18next-locize-backend@7.2.1:
+    resolution: {integrity: sha512-Tc6ZA6gOBQ7WJSMKifOfsVsEQqFyDWxtue95L+Sx+u0i7McfZITIbHvvrmT5DElfWsNRRbcIBKE5Y+JrT/WnWg==}
 
   i18next-subliminal@1.0.1:
     resolution: {integrity: sha512-h3m1oQ8lTaTNNgqmvBXAzFSGoJ0uobUcFW6TJMaWV4QDQ0+YGIih3ZcCX1XouGzK8yyFX13lP+2zAT/k7u4oiQ==}
 
-  i18next@25.5.3:
-    resolution: {integrity: sha512-joFqorDeQ6YpIXni944upwnuHBf5IoPMuqAchGVeQLdWC2JOjxgM9V8UGLhNIIH/Q8QleRxIi0BSRQehSrDLcg==}
+  i18next@25.8.14:
+    resolution: {integrity: sha512-paMUYkfWJMsWPeE/Hejcw+XLhHrQPehem+4wMo+uELnvIwvCG019L9sAIljwjCmEMtFQQO3YeitJY8Kctei3iA==}
     peerDependencies:
       typescript: ^5
     peerDependenciesMeta:
@@ -4700,7 +4700,7 @@ packages:
     resolution: {integrity: sha512-8j1NITWDF3oRV3wkE514g1yYpk9pv3MKiOrVVaxY8YWtcQs1Ux12tfVmIwKeP5/GVfS7g0N6oRm1TqjR2MeEaw==}
 
   xlsx@https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz:
-    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz}
+    resolution: {integrity: sha512-oLDq3jw7AcLqKWH2AhCpVTZl8mf6X2YReP+Neh0SJUzV/BdZYjth94tG5toiMB1PPrYtxOCfaoUCkvtuH+3AJA==, tarball: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz}
     version: 0.20.3
     engines: {node: '>=0.8'}
     hasBin: true
@@ -5872,7 +5872,7 @@ snapshots:
 
   '@types/i18next@13.0.0(typescript@5.9.3)':
     dependencies:
-      i18next: 25.5.3(typescript@5.9.3)
+      i18next: 25.8.14(typescript@5.9.3)
     transitivePeerDependencies:
       - typescript
 
@@ -7510,7 +7510,7 @@ snapshots:
 
   husky@9.1.7: {}
 
-  i18next-browser-languagedetector@8.2.0:
+  i18next-browser-languagedetector@8.2.1:
     dependencies:
       '@babel/runtime': 7.28.6
 
@@ -7520,7 +7520,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  i18next-locize-backend@7.0.4(encoding@0.1.13):
+  i18next-locize-backend@7.2.1(encoding@0.1.13):
     dependencies:
       cross-fetch: 4.1.0(encoding@0.1.13)
     transitivePeerDependencies:
@@ -7530,7 +7530,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.28.6
 
-  i18next@25.5.3(typescript@5.9.3):
+  i18next@25.8.14(typescript@5.9.3):
     dependencies:
       '@babel/runtime': 7.28.6
     optionalDependencies:
@@ -8627,11 +8627,11 @@ snapshots:
       react-fast-compare: 3.2.2
       react-side-effect: 2.1.2(react@18.3.1)
 
-  react-i18next@15.7.4(i18next@25.5.3(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3):
+  react-i18next@15.7.4(i18next@25.8.14(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3):
     dependencies:
       '@babel/runtime': 7.28.6
       html-parse-stringify: 3.0.1
-      i18next: 25.5.3(typescript@5.9.3)
+      i18next: 25.8.14(typescript@5.9.3)
       react: 18.3.1
     optionalDependencies:
       react-dom: 18.3.1(react@18.3.1)

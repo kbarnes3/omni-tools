@@ -42,8 +42,8 @@ importers:
         specifier: 1.55.1
         version: 1.55.1
       '@simplepdf/react-embed-pdf':
-        specifier: 1.9.0
-        version: 1.9.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 1.10.0
+        version: 1.10.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/ffmpeg':
         specifier: 1.0.7
         version: 1.0.7
@@ -1319,8 +1319,9 @@ packages:
       react-dom: '>=16.0.0'
       styled-components: '>=5.0.0'
 
-  '@simplepdf/react-embed-pdf@1.9.0':
-    resolution: {integrity: sha512-qp0K5Fh8E+Zk7m3vyHtvksNlozOUyYRG2wR/TiEjhNh12kj+ar4N+1rEJA7BOsf/M2HnSplwjNOPuci2CKkKGg==}
+  '@simplepdf/react-embed-pdf@1.10.0':
+    resolution: {integrity: sha512-J71s/QmIsm+jznAnFliovZ+dp2OuTd3me8bmG6zqWSUviakAamPba/JSDPV4xfsT+ktVNzti53T027InoEl7QA==}
+    engines: {node: '>=18'}
     peerDependencies:
       react: ^18.2.0 || ^19.0.0
       react-dom: ^18.2.0 || ^19.0.0
@@ -4692,7 +4693,7 @@ packages:
     resolution: {integrity: sha512-8j1NITWDF3oRV3wkE514g1yYpk9pv3MKiOrVVaxY8YWtcQs1Ux12tfVmIwKeP5/GVfS7g0N6oRm1TqjR2MeEaw==}
 
   xlsx@https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz:
-    resolution: {integrity: sha512-oLDq3jw7AcLqKWH2AhCpVTZl8mf6X2YReP+Neh0SJUzV/BdZYjth94tG5toiMB1PPrYtxOCfaoUCkvtuH+3AJA==, tarball: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz}
+    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz}
     version: 0.20.3
     engines: {node: '>=0.8'}
     hasBin: true
@@ -5734,7 +5735,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  '@simplepdf/react-embed-pdf@1.9.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@simplepdf/react-embed-pdf@1.10.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)

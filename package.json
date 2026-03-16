@@ -50,7 +50,7 @@
     "color": "4.2.3",
     "cron-validator": "1.4.0",
     "cronstrue": "3.13.0",
-    "dayjs": "1.11.19",
+    "dayjs": "1.11.20",
     "fast-xml-parser": "5.5.3",
     "formik": "2.4.9",
     "heic-to": "1.4.2",

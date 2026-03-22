@@ -51,7 +51,7 @@
     "cron-validator": "1.4.0",
     "cronstrue": "3.13.0",
     "dayjs": "1.11.20",
-    "fast-xml-parser": "5.5.5",
+    "fast-xml-parser": "5.5.7",
     "formik": "2.4.9",
     "heic-to": "1.4.2",
     "i18next": "25.8.18",

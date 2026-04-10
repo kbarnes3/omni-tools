@@ -33,7 +33,7 @@
     "@ffmpeg/ffmpeg": "0.12.15",
     "@ffmpeg/util": "0.12.2",
     "@imgly/background-removal": "1.7.0",
-    "@jimp/types": "1.6.0",
+    "@jimp/types": "1.6.1",
     "@monaco-editor/react": "4.7.0",
     "@mui/icons-material": "5.18.0",
     "@mui/material": "5.18.0",

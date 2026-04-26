@@ -114,8 +114,8 @@ importers:
         specifier: 15.5.2
         version: 15.5.2
       locize:
-        specifier: 4.0.20
-        version: 4.0.20
+        specifier: 4.0.22
+        version: 4.0.22
       lodash:
         specifier: 4.18.1
         version: 4.18.1
@@ -3086,8 +3086,8 @@ packages:
   locize-xcstrings@2.0.0:
     resolution: {integrity: sha512-Gef3IrMDSB5ZuRbym9ktr7KXCTFjIvs1T2TEnaew5ed7BBwt3od0/sj8C7X9iGpRebHxG1kyF6hR6aK8iBPkLg==}
 
-  locize@4.0.20:
-    resolution: {integrity: sha512-rb9btVM8nkLBAO0AvqXyLmRYF2j/q5jNpTEMaExU+ROzAH3PW20RgvbtlZDvch/+PPSXHRiidj2JD5XRGeCKmQ==}
+  locize@4.0.22:
+    resolution: {integrity: sha512-mxLBtmXPrO5crF3OTos0SZ1Hl3RNNmD5ZfsAWrDVvdsYmjwoX2tViVG6In7fXiZ6pV6ifwCv9hmNr+R+e6tCZw==}
 
   lodash-es@4.18.1:
     resolution: {integrity: sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==}
@@ -4545,7 +4545,7 @@ packages:
     resolution: {integrity: sha512-8j1NITWDF3oRV3wkE514g1yYpk9pv3MKiOrVVaxY8YWtcQs1Ux12tfVmIwKeP5/GVfS7g0N6oRm1TqjR2MeEaw==}
 
   xlsx@https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz:
-    resolution: {integrity: sha512-oLDq3jw7AcLqKWH2AhCpVTZl8mf6X2YReP+Neh0SJUzV/BdZYjth94tG5toiMB1PPrYtxOCfaoUCkvtuH+3AJA==, tarball: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz}
+    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz}
     version: 0.20.3
     engines: {node: '>=0.8'}
     hasBin: true
@@ -7661,7 +7661,7 @@ snapshots:
 
   locize-xcstrings@2.0.0: {}
 
-  locize@4.0.20:
+  locize@4.0.22:
     dependencies:
       '@babel/runtime': 7.29.2
       '@floating-ui/dom': 1.7.6

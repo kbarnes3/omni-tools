@@ -160,7 +160,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       react-filerobot-image-editor:
         specifier: 4.9.1
-        version: 4.9.1(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.14(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 4.9.1(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.16(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       react-helmet:
         specifier: 6.1.0
         version: 6.1.0(react@18.3.1)
@@ -171,8 +171,8 @@ importers:
         specifier: 11.0.10
         version: 11.0.10(react@18.3.1)
       react-konva:
-        specifier: 18.2.14
-        version: 18.2.14(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 18.2.16
+        version: 18.2.16(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-router-dom:
         specifier: 6.30.3
         version: 6.30.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3782,8 +3782,8 @@ packages:
   react-is@19.2.6:
     resolution: {integrity: sha512-XjBR15BhXuylgWGuslhDKqlSayuqvqBX91BP8pauG8kd1zY8kotkNWbXksTCNRarse4kuGbe2kIY05ARtwNIvw==}
 
-  react-konva@18.2.14:
-    resolution: {integrity: sha512-lBDe/5fTgquMdg1AHI0B16YZdAOvEhWMBWuo12ioyY0icdxcz9Cf12j86fsCJCHdnvjUOlZeC0f5q+siyHbD4Q==}
+  react-konva@18.2.16:
+    resolution: {integrity: sha512-bYs5TuTpaSSxBTZ79btaSXjDvLaQIZOVgBEg2ITMyc2p3jwbdIJDh7kOuK4ivxY8uZHWxmQP32bLxlwA17EgXQ==}
     peerDependencies:
       konva: ^8.0.1 || ^7.2.5 || ^9.0.0 || ^10.0.0
       react: '>=18.0.0'
@@ -8267,7 +8267,7 @@ snapshots:
 
   react-fast-compare@3.2.2: {}
 
-  react-filerobot-image-editor@4.9.1(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.14(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
+  react-filerobot-image-editor@4.9.1(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.16(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
     dependencies:
       '@babel/runtime': 7.29.2
       '@scaleflex/icons': 2.10.27(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8276,7 +8276,7 @@ snapshots:
       prop-types: 15.7.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-konva: 18.2.14(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-konva: 18.2.16(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       styled-components: 6.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
@@ -8312,7 +8312,7 @@ snapshots:
 
   react-is@19.2.6: {}
 
-  react-konva@18.2.14(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-konva@18.2.16(@types/react@18.3.28)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@types/react-reconciler': 0.28.9(@types/react@18.3.28)
       its-fine: 1.2.5(@types/react@18.3.28)(react@18.3.1)

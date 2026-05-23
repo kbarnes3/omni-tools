@@ -114,8 +114,8 @@ importers:
         specifier: 15.5.2
         version: 15.5.2
       locize:
-        specifier: 4.0.22
-        version: 4.0.22
+        specifier: 4.1.0
+        version: 4.1.0
       lodash:
         specifier: 4.18.1
         version: 4.18.1
@@ -3101,8 +3101,8 @@ packages:
   locize-xcstrings@2.0.0:
     resolution: {integrity: sha512-Gef3IrMDSB5ZuRbym9ktr7KXCTFjIvs1T2TEnaew5ed7BBwt3od0/sj8C7X9iGpRebHxG1kyF6hR6aK8iBPkLg==}
 
-  locize@4.0.22:
-    resolution: {integrity: sha512-mxLBtmXPrO5crF3OTos0SZ1Hl3RNNmD5ZfsAWrDVvdsYmjwoX2tViVG6In7fXiZ6pV6ifwCv9hmNr+R+e6tCZw==}
+  locize@4.1.0:
+    resolution: {integrity: sha512-+dre2DpZAE8dfi3uYjhyr4eDcYye1daFHPgvAGbzf0w1JbUgdZtHA//ZtnJad/iUqutSuLWOgLBCSg3Q95Fbyg==}
 
   lodash-es@4.18.1:
     resolution: {integrity: sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==}
@@ -7698,7 +7698,7 @@ snapshots:
 
   locize-xcstrings@2.0.0: {}
 
-  locize@4.0.22:
+  locize@4.1.0:
     dependencies:
       '@babel/runtime': 7.29.2
       '@floating-ui/dom': 1.7.6

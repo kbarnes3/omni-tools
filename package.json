@@ -120,7 +120,7 @@
     "locize-cli": "10.4.0",
     "monaco-editor": "0.55.1",
     "postcss": "8.5.15",
-    "prettier": "3.8.3",
+    "prettier": "3.8.4",
     "start-server-and-test": "2.1.5",
     "tailwindcss": "3.4.19",
     "typescript": "5.9.3",

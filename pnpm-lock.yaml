@@ -75,8 +75,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0
       cronstrue:
-        specifier: 3.20.0
-        version: 3.20.0
+        specifier: 3.21.0
+        version: 3.21.0
       dayjs:
         specifier: 1.11.21
         version: 1.11.21
@@ -100,7 +100,7 @@ importers:
         version: 3.0.6(encoding@0.1.13)
       jimp:
         specifier: 0.22.12
-        version: 0.22.12(encoding@0.1.13)
+        version: 0.22.12(debug@4.4.3)(encoding@0.1.13)
       js-quantities:
         specifier: 1.8.0
         version: 1.8.0
@@ -2034,8 +2034,8 @@ packages:
   cron-validator@1.4.0:
     resolution: {integrity: sha512-wGcJ9FCy65iaU6egSH8b5dZYJF7GU/3Jh06wzaT9lsa5dbqExjljmu+0cJ8cpKn+vUyZa/EM4WAxeLR6SypJXw==}
 
-  cronstrue@3.20.0:
-    resolution: {integrity: sha512-2VOOE8DSemXhqEtlU23GBMoeowHnhcto+HPelhtCfM5cP+PB59UOuoeOIBQATzKSW+RfOGF7OJjcwfaUxRW6QQ==}
+  cronstrue@3.21.0:
+    resolution: {integrity: sha512-6DgX87NpjknhNmYC0/JjexQIAwCvtaUNoayqxLsciU5NkwGcEhuXLgXkIOX/bsuXL4f/aaLfgimJ6/2X8c5ezg==}
     hasBin: true
 
   cross-fetch@4.1.0:
@@ -5186,12 +5186,12 @@ snapshots:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
       '@jimp/utils': 0.22.12
 
-  '@jimp/plugin-print@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))':
+  '@jimp/plugin-print@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(debug@4.4.3)':
     dependencies:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
       '@jimp/plugin-blit': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/utils': 0.22.12
-      load-bmfont: 1.4.2
+      load-bmfont: 1.4.2(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 
@@ -5228,7 +5228,7 @@ snapshots:
       '@jimp/plugin-resize': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/utils': 0.22.12
 
-  '@jimp/plugins@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))':
+  '@jimp/plugins@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(debug@4.4.3)':
     dependencies:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
       '@jimp/plugin-blit': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
@@ -5246,7 +5246,7 @@ snapshots:
       '@jimp/plugin-invert': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/plugin-mask': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/plugin-normalize': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
-      '@jimp/plugin-print': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))
+      '@jimp/plugin-print': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(debug@4.4.3)
       '@jimp/plugin-resize': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/plugin-rotate': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(@jimp/plugin-crop@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(@jimp/plugin-resize@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))
       '@jimp/plugin-scale': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-resize@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))
@@ -6218,7 +6218,7 @@ snapshots:
       svg-pathdata: 6.0.3
     optional: true
 
-  centra@2.7.0:
+  centra@2.7.0(debug@4.4.3):
     dependencies:
       follow-redirects: 1.16.0(debug@4.4.3)
     transitivePeerDependencies:
@@ -6396,7 +6396,7 @@ snapshots:
 
   cron-validator@1.4.0: {}
 
-  cronstrue@3.20.0: {}
+  cronstrue@3.21.0: {}
 
   cross-fetch@4.1.0(encoding@0.1.13):
     dependencies:
@@ -7528,10 +7528,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  jimp@0.22.12(encoding@0.1.13):
+  jimp@0.22.12(debug@4.4.3)(encoding@0.1.13):
     dependencies:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
-      '@jimp/plugins': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
+      '@jimp/plugins': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(debug@4.4.3)
       '@jimp/types': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       regenerator-runtime: 0.13.11
     transitivePeerDependencies:
@@ -7654,14 +7654,14 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 9.0.2
 
-  load-bmfont@1.4.2:
+  load-bmfont@1.4.2(debug@4.4.3):
     dependencies:
       buffer-equal: 0.0.1
       mime: 1.6.0
       parse-bmfont-ascii: 1.0.6
       parse-bmfont-binary: 1.0.6
       parse-bmfont-xml: 1.1.6
-      phin: 3.7.1
+      phin: 3.7.1(debug@4.4.3)
       xhr: 2.6.0
       xtend: 4.0.2
     transitivePeerDependencies:
@@ -8114,9 +8114,9 @@ snapshots:
   performance-now@2.1.0:
     optional: true
 
-  phin@3.7.1:
+  phin@3.7.1(debug@4.4.3):
     dependencies:
-      centra: 2.7.0
+      centra: 2.7.0(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 

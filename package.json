@@ -49,7 +49,7 @@
     "buffer": "6.0.3",
     "color": "4.2.3",
     "cron-validator": "1.4.0",
-    "cronstrue": "3.20.0",
+    "cronstrue": "3.21.0",
     "dayjs": "1.11.21",
     "fast-xml-parser": "5.9.2",
     "formik": "2.4.9",

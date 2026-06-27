@@ -100,7 +100,7 @@ importers:
         version: 3.0.6(encoding@0.1.13)
       jimp:
         specifier: 0.22.12
-        version: 0.22.12(encoding@0.1.13)
+        version: 0.22.12(debug@4.4.3)(encoding@0.1.13)
       js-quantities:
         specifier: 1.8.0
         version: 1.8.0
@@ -160,7 +160,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       react-filerobot-image-editor:
         specifier: 4.9.1
-        version: 4.9.1(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.16(@types/react@18.3.31)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 4.9.1(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.16(@types/react@18.3.31)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       react-helmet:
         specifier: 6.1.0
         version: 6.1.0(react@18.3.1)
@@ -177,8 +177,8 @@ importers:
         specifier: 6.30.4
         version: 6.30.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       styled-components:
-        specifier: 6.4.2
-        version: 6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 6.4.3
+        version: 6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tesseract.js:
         specifier: 6.0.1
         version: 6.0.1(encoding@0.1.13)
@@ -2580,7 +2580,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
-    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   glob-parent@5.1.2:
@@ -4163,8 +4163,8 @@ packages:
     resolution: {integrity: sha512-fZtbhtvI9I48xDSywd/somNqgUHl2L2cstmXCCif0itOf96jeW18MBSyrLuNicYQVkvpOxkZtkzujiTJ9LW5Jw==}
     engines: {node: '>=10'}
 
-  styled-components@6.4.2:
-    resolution: {integrity: sha512-xZBhBJsMtGqb+aKcwKgaT+BtuFums9VynX2JRvXJGTx5UfZzN12rk5r4nVdhXYvRw+hE7yiYxVrOqJZaK2+Txg==}
+  styled-components@6.4.3:
+    resolution: {integrity: sha512-wYXrhu+JmDjZ1Tv7O0OopGTfztbzun43Pjjhh2H+xc0h5A09dwpZ5FJbrifJDcL8g5TA9btpWOX2+iSRuJTExw==}
     engines: {node: '>= 16'}
     peerDependencies:
       css-to-react-native: '>= 3.2.0'
@@ -5186,12 +5186,12 @@ snapshots:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
       '@jimp/utils': 0.22.12
 
-  '@jimp/plugin-print@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))':
+  '@jimp/plugin-print@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(debug@4.4.3)':
     dependencies:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
       '@jimp/plugin-blit': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/utils': 0.22.12
-      load-bmfont: 1.4.2
+      load-bmfont: 1.4.2(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 
@@ -5228,7 +5228,7 @@ snapshots:
       '@jimp/plugin-resize': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/utils': 0.22.12
 
-  '@jimp/plugins@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))':
+  '@jimp/plugins@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(debug@4.4.3)':
     dependencies:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
       '@jimp/plugin-blit': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
@@ -5246,7 +5246,7 @@ snapshots:
       '@jimp/plugin-invert': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/plugin-mask': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/plugin-normalize': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
-      '@jimp/plugin-print': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))
+      '@jimp/plugin-print': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(debug@4.4.3)
       '@jimp/plugin-resize': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       '@jimp/plugin-rotate': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-blit@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(@jimp/plugin-crop@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))(@jimp/plugin-resize@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))
       '@jimp/plugin-scale': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(@jimp/plugin-resize@0.22.12(@jimp/custom@0.22.12(encoding@0.1.13)))
@@ -5582,7 +5582,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@scaleflex/ui@2.10.27(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@scaleflex/ui@2.10.27(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@popperjs/core': 2.11.8
       '@scaleflex/icons': 2.10.27(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -5594,7 +5594,7 @@ snapshots:
       prop-types: 15.7.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      styled-components: 6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      styled-components: 6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
   '@simplepdf/react-embed-pdf@1.10.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -6218,7 +6218,7 @@ snapshots:
       svg-pathdata: 6.0.3
     optional: true
 
-  centra@2.7.0:
+  centra@2.7.0(debug@4.4.3):
     dependencies:
       follow-redirects: 1.16.0(debug@4.4.3)
     transitivePeerDependencies:
@@ -7528,10 +7528,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  jimp@0.22.12(encoding@0.1.13):
+  jimp@0.22.12(debug@4.4.3)(encoding@0.1.13):
     dependencies:
       '@jimp/custom': 0.22.12(encoding@0.1.13)
-      '@jimp/plugins': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
+      '@jimp/plugins': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))(debug@4.4.3)
       '@jimp/types': 0.22.12(@jimp/custom@0.22.12(encoding@0.1.13))
       regenerator-runtime: 0.13.11
     transitivePeerDependencies:
@@ -7654,14 +7654,14 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 9.0.2
 
-  load-bmfont@1.4.2:
+  load-bmfont@1.4.2(debug@4.4.3):
     dependencies:
       buffer-equal: 0.0.1
       mime: 1.6.0
       parse-bmfont-ascii: 1.0.6
       parse-bmfont-binary: 1.0.6
       parse-bmfont-xml: 1.1.6
-      phin: 3.7.1
+      phin: 3.7.1(debug@4.4.3)
       xhr: 2.6.0
       xtend: 4.0.2
     transitivePeerDependencies:
@@ -8114,9 +8114,9 @@ snapshots:
   performance-now@2.1.0:
     optional: true
 
-  phin@3.7.1:
+  phin@3.7.1(debug@4.4.3):
     dependencies:
-      centra: 2.7.0
+      centra: 2.7.0(debug@4.4.3)
     transitivePeerDependencies:
       - debug
 
@@ -8316,17 +8316,17 @@ snapshots:
 
   react-fast-compare@3.2.2: {}
 
-  react-filerobot-image-editor@4.9.1(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.16(@types/react@18.3.31)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
+  react-filerobot-image-editor@4.9.1(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.16(@types/react@18.3.31)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(styled-components@6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
     dependencies:
       '@babel/runtime': 7.29.7
       '@scaleflex/icons': 2.10.27(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@scaleflex/ui': 2.10.27(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@scaleflex/ui': 2.10.27(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       konva: 9.3.6
       prop-types: 15.7.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-konva: 18.2.16(@types/react@18.3.31)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      styled-components: 6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      styled-components: 6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
@@ -8820,7 +8820,7 @@ snapshots:
       '@tokenizer/token': 0.3.0
       peek-readable: 4.1.0
 
-  styled-components@6.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  styled-components@6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
       csstype: 3.2.3

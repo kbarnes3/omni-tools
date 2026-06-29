@@ -168,8 +168,8 @@ importers:
         specifier: 15.7.4
         version: 15.7.4(i18next@25.10.10(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       react-image-crop:
-        specifier: 11.0.10
-        version: 11.0.10(react@18.3.1)
+        specifier: 11.1.2
+        version: 11.1.2(react@18.3.1)
       react-konva:
         specifier: 18.2.16
         version: 18.2.16(@types/react@18.3.31)(konva@9.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3782,8 +3782,8 @@ packages:
       typescript:
         optional: true
 
-  react-image-crop@11.0.10:
-    resolution: {integrity: sha512-+5FfDXUgYLLqBh1Y/uQhIycpHCbXkI50a+nbfkB1C0xXXUTwkisHDo2QCB1SQJyHCqIuia4FeyReqXuMDKWQTQ==}
+  react-image-crop@11.1.2:
+    resolution: {integrity: sha512-+0Pc2fxpwKL4u4oLmdKBw8XSwUceFbXbKEHvFOlsl/MGB1OVNic4uBlAPmEHGXYgoJIq+b63xHbc/aJMG0AVkA==}
     peerDependencies:
       react: '>=16.13.1'
 
@@ -8349,7 +8349,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       typescript: 5.9.3
 
-  react-image-crop@11.0.10(react@18.3.1):
+  react-image-crop@11.1.2(react@18.3.1):
     dependencies:
       react: 18.3.1
 

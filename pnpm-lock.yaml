@@ -42,8 +42,8 @@ importers:
         specifier: 1.61.1
         version: 1.61.1
       '@simplepdf/react-embed-pdf':
-        specifier: 1.11.0
-        version: 1.11.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 1.12.1
+        version: 1.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/ffmpeg':
         specifier: 1.0.7
         version: 1.0.7
@@ -1301,23 +1301,29 @@ packages:
       react-dom: '>=16.0.0'
       styled-components: '>=5.0.0'
 
-  '@simplepdf/embed@0.5.0':
-    resolution: {integrity: sha512-FQZpPQdqCGeCy5rOMTQNMI0v5mXR46a1wuD1z3eSPARv+BrC1s0dLYmLqZ6j3xKQWIDjcCk/arHThsLC1Glygw==}
+  '@simplepdf/embed@0.6.0':
+    resolution: {integrity: sha512-yplY5K77vNfQXgxSxTB2A1ltr964sb3yaKn93gxfKj2Alr3JT/fsWXXaLGY1/DiT587ecNx62I5LgNc6QLV/Og==}
     engines: {node: '>=18'}
     peerDependencies:
+      '@tanstack/ai': ^0.38.0
       zod: ^4.0.0
     peerDependenciesMeta:
+      '@tanstack/ai':
+        optional: true
       zod:
         optional: true
 
-  '@simplepdf/react-embed-pdf@1.11.0':
-    resolution: {integrity: sha512-txYnZXBGFVXiiI4zpDBp6N4dE9PJZzRWnIRFM4ijFKz8v4Os+oNcg1znoAxAdFS/nPCsyrBlEq/hW//Kv+XrZw==}
+  '@simplepdf/react-embed-pdf@1.12.1':
+    resolution: {integrity: sha512-mI+CsPaRd0yk5RmI9G6Sk9TMvZWvs+jV5nvCwS9VfDjuljh3GVglrB9wr+npph2EG4lD5EOxEPQDdXCUpFQZ/g==}
     engines: {node: '>=18'}
     peerDependencies:
+      '@tanstack/ai': ^0.38.0
       react: ^18.2.0 || ^19.0.0
       react-dom: ^18.2.0 || ^19.0.0
       zod: ^4.0.0
     peerDependenciesMeta:
+      '@tanstack/ai':
+        optional: true
       zod:
         optional: true
 
@@ -5609,11 +5615,11 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 6.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  '@simplepdf/embed@0.5.0': {}
+  '@simplepdf/embed@0.6.0': {}
 
-  '@simplepdf/react-embed-pdf@1.11.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@simplepdf/react-embed-pdf@1.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@simplepdf/embed': 0.5.0
+      '@simplepdf/embed': 0.6.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 

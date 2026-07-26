@@ -118,7 +118,7 @@
     "husky": "9.1.7",
     "i18next-locize-backend": "7.2.1",
     "locize-cli": "10.4.0",
-    "monaco-editor": "0.55.1",
+    "monaco-editor": "0.56.0",
     "postcss": "8.5.19",
     "prettier": "3.9.6",
     "start-server-and-test": "2.1.5",

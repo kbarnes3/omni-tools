@@ -126,8 +126,8 @@ importers:
         specifier: 1.0.10
         version: 1.0.10
       nerdamer-prime:
-        specifier: 1.2.5
-        version: 1.2.5
+        specifier: 1.5.0
+        version: 1.5.0
       notistack:
         specifier: 3.0.2
         version: 3.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1815,6 +1815,10 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  big-integer@1.6.52:
+    resolution: {integrity: sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==}
+    engines: {node: '>=0.6'}
+
   binary-extensions@2.3.0:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
@@ -2119,6 +2123,9 @@ packages:
   decamelize@1.2.0:
     resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
+
+  decimal.js@10.6.0:
+    resolution: {integrity: sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==}
 
   deep-eql@4.1.4:
     resolution: {integrity: sha512-SUwdGfqdKOwxCPeVYjwSyRpJ7Z+fhpwIAtmCUdZIWZ/YP5R9WAsyuSgpLVDi9bjWoN2LXHNss/dk3urXtdQxGg==}
@@ -3312,9 +3319,9 @@ packages:
   ndarray@1.0.19:
     resolution: {integrity: sha512-B4JHA4vdyZU30ELBw3g7/p9bZupyew5a7tX1Y/gGeF2hafrPaQZhgrGQfsvgfYbgdFZjYwuEcnaobeM/WMW+HQ==}
 
-  nerdamer-prime@1.2.5:
-    resolution: {integrity: sha512-lrlJY9E+4q+yZqawGSoIO7YsUVtEmt4upkCmXlCKQn7dLl24+ekH3/Rm9pGcN7FGwlql1mrpnoWKk053/CGJEw==}
-    engines: {node: '>=0.10.0'}
+  nerdamer-prime@1.5.0:
+    resolution: {integrity: sha512-Etdt2wcCagJaAwqL5QSDqWPfDvuSzUGwZ9NWFp7gHhEfdA1YE40YLeSd08hYdBlMltRDvr57vGET5Dord8V6Wg==}
+    engines: {node: '>=15'}
 
   node-exports-info@1.6.2:
     resolution: {integrity: sha512-kXs9Go0cah0qHVV2v389IXQLdLCeE1xfFtjOAF+iobu0OIoG1pje8At2vMHyaPMiPMnG/LWP50twML21eMcAag==}
@@ -6154,6 +6161,8 @@ snapshots:
 
   baseline-browser-mapping@2.11.3: {}
 
+  big-integer@1.6.52: {}
+
   binary-extensions@2.3.0: {}
 
   bluebird@3.7.2: {}
@@ -6484,6 +6493,8 @@ snapshots:
       supports-color: 7.2.0
 
   decamelize@1.2.0: {}
+
+  decimal.js@10.6.0: {}
 
   deep-eql@4.1.4:
     dependencies:
@@ -7897,7 +7908,10 @@ snapshots:
       iota-array: 1.0.0
       is-buffer: 1.1.6
 
-  nerdamer-prime@1.2.5: {}
+  nerdamer-prime@1.5.0:
+    dependencies:
+      big-integer: 1.6.52
+      decimal.js: 10.6.0
 
   node-exports-info@1.6.2:
     dependencies:

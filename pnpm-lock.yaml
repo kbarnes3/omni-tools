@@ -75,8 +75,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0
       cronstrue:
-        specifier: 3.25.0
-        version: 3.25.0
+        specifier: 3.26.0
+        version: 3.26.0
       dayjs:
         specifier: 1.11.23
         version: 1.11.23
@@ -2060,8 +2060,8 @@ packages:
   cron-validator@1.4.0:
     resolution: {integrity: sha512-wGcJ9FCy65iaU6egSH8b5dZYJF7GU/3Jh06wzaT9lsa5dbqExjljmu+0cJ8cpKn+vUyZa/EM4WAxeLR6SypJXw==}
 
-  cronstrue@3.25.0:
-    resolution: {integrity: sha512-PAPaioNXHMLiUSM8V5sC0bIx5MALUQjjtuDZZWBir5Tau8D676Aoj3Oju/SCaggi4eLG+QPC3IU+dCo30AzDIA==}
+  cronstrue@3.26.0:
+    resolution: {integrity: sha512-PEXTHEir/KllAWMsOQOsv3ZXjI6Y1PA1eVAEM/WhCaesAcCYHldra9pr2jkFH6r/ynbEOAPOGoWYz9NkjP0huA==}
     hasBin: true
 
   cross-fetch@4.1.0:
@@ -6419,7 +6419,7 @@ snapshots:
 
   cron-validator@1.4.0: {}
 
-  cronstrue@3.25.0: {}
+  cronstrue@3.26.0: {}
 
   cross-fetch@4.1.0(encoding@0.1.13):
     dependencies:

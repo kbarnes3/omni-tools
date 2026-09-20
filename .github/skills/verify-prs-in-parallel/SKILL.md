@@ -92,12 +92,15 @@ install failure and a rendering failure mean very different things.
 In this order, or the removal fails:
 
 ```powershell
-# 1. Kill any preview server still holding node_modules.
+# 1. List any preview server still holding node_modules.
 Get-CimInstance Win32_Process -Filter "Name='node.exe'" |
     Where-Object { $_.CommandLine -like '*omni-wt*' } |
-    ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
+    Select-Object ProcessId, CommandLine
 
-# 2. Drop the worktrees and the branches they were on.
+# 2. Stop each one by its literal PID, one call per process.
+Stop-Process -Id <pid> -Force
+
+# 3. Drop the worktrees and the branches they were on.
 foreach ($n in 221, 220) {
     git worktree remove "G:\Code\omni-wt\pr-$n" --force
     git branch -D "pr-$n"
@@ -108,6 +111,11 @@ git worktree prune
 
 Verify with `git worktree list` and `git status --short`, and confirm the original branch
 is unchanged.
+
+Step 1 usually returns nothing, because `Invoke-PrCheck.ps1` already stopped its own
+process tree; step 2 is then a no-op. Keep the list and the stop separate rather than
+piping into `Stop-Process`: agent tooling refuses a `Stop-Process` that does not name an
+explicit `-Id`, so the piped form fails outright and leaves the locks in place.
 
 ## Interpreting a failure
 

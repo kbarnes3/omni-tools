@@ -42,8 +42,8 @@ importers:
         specifier: 1.63.0
         version: 1.63.0
       '@simplepdf/react-embed-pdf':
-        specifier: 1.12.1
-        version: 1.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 1.13.0
+        version: 1.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/ffmpeg':
         specifier: 1.0.7
         version: 1.0.7
@@ -1308,8 +1308,8 @@ packages:
       react-dom: '>=16.0.0'
       styled-components: '>=5.0.0'
 
-  '@simplepdf/embed@0.6.0':
-    resolution: {integrity: sha512-yplY5K77vNfQXgxSxTB2A1ltr964sb3yaKn93gxfKj2Alr3JT/fsWXXaLGY1/DiT587ecNx62I5LgNc6QLV/Og==}
+  '@simplepdf/embed@0.7.0':
+    resolution: {integrity: sha512-iKmJpBhz59MRkseZF9ElevnLHw8bH3nJWcsjJauZTapOkKD5daFAXpbkohq4/0uGmAgfSUpbQCu9woszOcGKPg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@tanstack/ai': ^0.38.0
@@ -1320,8 +1320,8 @@ packages:
       zod:
         optional: true
 
-  '@simplepdf/react-embed-pdf@1.12.1':
-    resolution: {integrity: sha512-mI+CsPaRd0yk5RmI9G6Sk9TMvZWvs+jV5nvCwS9VfDjuljh3GVglrB9wr+npph2EG4lD5EOxEPQDdXCUpFQZ/g==}
+  '@simplepdf/react-embed-pdf@1.13.0':
+    resolution: {integrity: sha512-1Hrb/sqRbzTw5LpEaRbGlg1SMm1gtg11XpwXdzvJX3iewV9bSMnFcNWjru9wafPdZADNA8ZnK5nzkvk0Wz1epQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@tanstack/ai': ^0.38.0
@@ -5616,11 +5616,11 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 6.5.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  '@simplepdf/embed@0.6.0': {}
+  '@simplepdf/embed@0.7.0': {}
 
-  '@simplepdf/react-embed-pdf@1.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@simplepdf/react-embed-pdf@1.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@simplepdf/embed': 0.6.0
+      '@simplepdf/embed': 0.7.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
